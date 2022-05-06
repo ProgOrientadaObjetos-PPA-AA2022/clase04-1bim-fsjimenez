@@ -68,10 +68,10 @@ public class FacturaTelefonica {
                 + "Minutos mes: %.2f\n"
                 + "Valor minuto: %.2f\n"
                 + "valor factura: %.2f\n",
-                obtenerNumeroTelefono(),
+                numeroTelefono,
                 obtenerMinutosMes(),
                 obtenerValorMinuto(),
-                obtenerValorFactura());
+                valorFactura);
         return cadena;
     }
 

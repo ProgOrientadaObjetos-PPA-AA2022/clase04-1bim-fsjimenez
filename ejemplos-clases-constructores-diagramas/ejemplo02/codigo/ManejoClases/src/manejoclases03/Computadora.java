@@ -40,4 +40,10 @@ public class Computadora {
         return memoria;
     }
     
+    @Override
+    public String toString(){
+        String cadena = String.format("Computadora\nProcesador: %s\nMemoria: %s"
+              , tipoProcesador, memoria);
+        return cadena;
+    }
 }
